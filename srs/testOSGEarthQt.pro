@@ -40,7 +40,7 @@ FORMS += \
 
 INCLUDEPATH += "E:\src\vcpkg\installed\x64-windows\include"
 CONFIG(debug, debug|release){
-    LIBS += -L"E:\src\vcpkg\installed\x64-windows\debug\lib" -losgd -losgUtild -losgViewerd  -losgGAd  -losgDBd  -lOpenThreadsd -lopengl32d
+    LIBS += -L"E:\src\vcpkg\installed\x64-windows\debug\lib" -losgd -losgUtild -losgViewerd  -losgGAd  -losgDBd  -lOpenThreadsd -lopengl32
     LIBS += -L"E:\src\vcpkg\installed\x64-windows\debug\lib" -losgQOpenGLd
     LIBS += -L"E:\src\vcpkg\installed\x64-windows\debug\lib" -losgEarthd
 }else{
